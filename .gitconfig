@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = \"D:\\Microsoft VS Code\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	name = Ziyi Wang
+	email = ziyi.wang@sjtu.edu.cn
